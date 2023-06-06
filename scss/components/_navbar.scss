@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    color: white;
+    padding-top: 5px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: $main-font;
+
+    &-brand { 
+        font-size: 25px;
+        font-weight: bold;
+        &:hover {
+            color: rgb(239, 208, 235);
+        }
+
+    }
+    .nav-item, .nav-link, .offcanvas-title {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        
+        &:hover {
+            color: rgb(239, 208, 235);
+        }
+      
+    }     
+
+ }

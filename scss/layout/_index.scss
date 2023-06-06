@@ -1,0 +1,38 @@
+
+
+.card {
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    background-color: #fafafae7;
+
+    &:hover {
+        box-shadow: 02px 5px 15px rgba(0,0,0,0.5);
+        transition: all 0.5s ease;
+        transform: translatey(-2%);
+    }
+
+    .btn-primary {
+    background-color: $main-color;
+    border-color: blanchedalmond;
+    &:hover {
+        background-color: rgb(244, 51, 115);
+    }
+}
+
+
+    img {
+        cursor: pointer;
+        object-fit: cover;
+    }
+    
+    .card-precio {
+        font-size: 15px;
+        font-weight: bolder;    
+        
+    }
+    .card-ciudad-origen {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}
