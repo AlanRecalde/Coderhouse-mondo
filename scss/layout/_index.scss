@@ -1,5 +1,3 @@
-
-
 .card {
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
@@ -21,18 +19,29 @@
 
 
     img {
-        cursor: pointer;
-        object-fit: cover;
+        @include imagen (pointer,)
     }
+
+    .card-title {
+        @include ciudad-destino;
+        font-size: 17px;
+        font-weight: bolder;
+
+    }
+
     
-    .card-precio {
-        font-size: 15px;
-        font-weight: bolder;    
+    .card-ciudad-origen {
+        font-size: 13px;
+        font-weight: bolder;
         
     }
-    .card-ciudad-origen {
-        font-size: 15px;
-        font-weight: bold;
+    .card-precio {
+        @extend .card-ciudad-origen 
+        
+        
+    }
+    .card-text {
+        font-size: 12px;
     }
 
 }

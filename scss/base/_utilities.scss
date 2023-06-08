@@ -1,0 +1,12 @@
+@mixin ciudad-destino {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+@mixin imagen ($cursor,$objet-fit) {
+    cursor: $cursor;
+    object-fit: $objet-fit;
+}
