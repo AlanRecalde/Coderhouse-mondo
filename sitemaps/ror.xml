@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://alanrecalde.github.io/Coderhouse-mondo/</title>
+  <link>https://alanrecalde.github.io/Coderhouse-mondo/</link>
+
+<item>
+     <link>https://alanrecalde.github.io/Coderhouse-mondo/</link>
+     <title>Mondo</title>
+     <description>Mondo</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alanrecalde.github.io/Coderhouse-mondo/index.html</link>
+     <title>Mondo</title>
+     <description>Mondo</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alanrecalde.github.io/Coderhouse-mondo/pages/promociones.html</link>
+     <title>Promociones</title>
+     <description>Promociones</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alanrecalde.github.io/Coderhouse-mondo/pages/vuelos.html</link>
+     <title>Vuelos</title>
+     <description>Vuelos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alanrecalde.github.io/Coderhouse-mondo/pages/hospedaje.html</link>
+     <title>Hospedaje</title>
+     <description>Hospedaje</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alanrecalde.github.io/Coderhouse-mondo/pages/contactanos.html</link>
+     <title>Contactanos</title>
+     <description>Contactanos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

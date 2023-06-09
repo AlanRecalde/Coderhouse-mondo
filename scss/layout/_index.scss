@@ -19,7 +19,7 @@
 
 
     img {
-        @include imagen (pointer,)
+        @include imagen (pointer,cover)
     }
 
     .card-title {
