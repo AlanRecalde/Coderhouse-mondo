@@ -74,6 +74,20 @@
   font-size: 12px;
 }
 
+.container_newletter {
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  background: url(/assets/bg_travel.jpg) no-repeat center;
+  background-size: cover;
+  padding: 100px 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container_newletter p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
 form {
   text-align: center;
 }
