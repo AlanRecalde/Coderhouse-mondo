@@ -84,7 +84,7 @@ main {
 }
 
 .titulo_principal {
-  background: url(assets/bg-newsletter.jpg) no-repeat center;
+  background: url(/assets/img1-400.jpg) no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;
