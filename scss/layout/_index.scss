@@ -51,11 +51,15 @@
 }
 
 .titulo_principal {
-    background: url(/assets/bg-titulo.jpg) no-repeat center;
+    background: url(/assets/bg-titulo.jpg)  no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10;
-    height:20vh;
     color: #fff;
+    height: 20vh;
+
     }
 
     h1 {

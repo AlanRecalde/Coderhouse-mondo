@@ -84,11 +84,14 @@ main {
 }
 
 .titulo_principal {
-  background: url(/assets/bg-titulo.jpg) no-repeat center;
+  background: url(/assets/bg-titulo.jpg) no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 10;
-  height: 20vh;
   color: #fff;
+  height: 20vh;
 }
 
 h1 {
@@ -153,6 +156,10 @@ input {
 .titulo_principal_contacto {
   display: flex;
   justify-content: center;
+}
+
+.titulo_contacto {
+  background-color: #191919;
 }
 
 .container_form {
