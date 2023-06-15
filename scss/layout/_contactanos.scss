@@ -1,12 +1,45 @@
-form {
-    text-align: center;
+.container_titulo {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo_principal_contacto {
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+
+
+.titulo_contacto {
+
+}
+
+
+
+.container_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    border: 1px black;
 }
 
 label {
-    text-align: center;    
-} 
+    text-align: center;
+    font-family: $main-font;
+    padding: 10px;
+    flex-wrap: wrap;
+}
 
-.imput-contacto {
-    margin: 10px;
+.imput { 
+    background-color: #fff;
 
 }

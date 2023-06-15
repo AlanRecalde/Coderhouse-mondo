@@ -53,34 +53,43 @@
       </header>
 
     <main>
-        <h2 class="p-5 text-center">¡Contactate con nosotros!</h2>
-        <form class="form">
-            <fieldset>
-              <label  for="nombre"></label>
-              <input class="imput-contacto" type="text" name="nombre" placeholder="Ingresa tu nombre"  />
-              <br/> 
-              <label for="mail"></label>
-              <input class="imput-contacto" type="email" name="mail" placeholder="Ingresa tu email" />
-              <br/>
-              <label for="Asunto"></label>
-              <input  class="imput-contacto" type="text" name="asunto" placeholder="Ingresa un asunto" />
-              <br/>
-              <label  for="comentario"></label>
-              <textarea class="imput-contacto"
-                name="textarea"
-                rows="10"
-                cols="50"
-                placeholder="Escribe aquí tu mensaje"
-              ></textarea>
-            </fieldset>
+      <div class="contenedor_principal">
+        <div class="container_titulo">
+        <h2 class="titulo_principal_contacto">¡Contactate con nosotros!</h2>
+      </div>
+      <div class="titulo_contacto">
+        <p>Ingresa tus datos de contacto y luego tu consulta y en breve nos contactaremos con vos.</p>
+      </div>
+      <div class="container_form">
+        <form class="container_form">
+          
+            <label  for="nombre">Nombre</label>
+            <input class="imput-contacto" type="text" name="nombre" placeholder="Ingresa tu nombre"  />
+            <br/> 
+            <label for="mail">Mail</label>
+            <input class="imput-contacto" type="email" name="mail" placeholder="Ingresa tu email" />
+            <br/>
+            <label for="Asunto">Asunto</label>
+            <input  class="imput-contacto" type="text" name="asunto" placeholder="Ingresa un asunto" />
+            <br/>
+            <label  for="comentario">Mensaje</label>
+            <textarea class="imput-contacto"
+              name="textarea"
+              rows="6"
+              cols="40"
+              placeholder="Escribe aquí tu mensaje"
+            ></textarea>  
+      </form>
+      </div>
+      <div class="container_newsletter">        
+        <form class="form_newsletter">
+          <p> Suscribite a nuestro newsletter y recibi todas nuetras promociones</p>
+          <br>
+          <input type="email" name="" value="" placeholder="ingresa tu mail" >
+          <button class="boton_news" type="button" name="button"> Suscribirse </button> 
         </form>
-        <div class="container_newletter">        
-          <form action="">
-            <p> Suscribite a nuestro newsletter y recibi todas nuetras promociones</p>
-            <input type="email" name="" value="" placeholder="ingresa tu mail" >
-            <button type="button" name="button"> Suscribirse </button> 
-          </form>
-       </div>
+     </div>
+      </div>
     </main>
 
     <footer>
