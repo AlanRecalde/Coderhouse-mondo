@@ -53,11 +53,11 @@
 
 .contenedor_principal {
     background-color: #EEF1FF;
-    
+
 }
 
 .titulo_principal {
-    background: url(../assets/bg-newsletter.jpg)  no-repeat center;
+    background: url(/assets/bg-newsletter.jpg)  no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@
 
 .container_newsletter {
   
-     background: url(../assets/bg-newsletter.jpg)  no-repeat center;
+     background: url(/assets/bg-newsletter.jpg)  no-repeat center;
      background-size: cover;
      display: flex;
      justify-content: center;
