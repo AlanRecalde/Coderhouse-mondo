@@ -167,20 +167,21 @@ input {
 }
 
 .container_titulo {
-  background-color: black;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 
 .titulo_principal_contacto {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
-.titulo_contacto {
-  background-color: #191919;
+.titulo_contacto p {
+  text-align: center;
 }
 
 .boton {
