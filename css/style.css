@@ -88,7 +88,7 @@ img {
 }
 
 .titulo_principal {
-  background: url(assets/bg-newsletter.jpg) no-repeat center;
+  background: url(../assets/bg-newsletter.jpg) no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -111,7 +111,7 @@ img {
 }
 
 .container_newsletter {
-  background: url(assets/bg-newsletter.jpg) no-repeat center;
+  background: url(../assets/bg-newsletter.jpg) no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;
