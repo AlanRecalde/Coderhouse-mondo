@@ -54,33 +54,53 @@
 
     <main>
       <div class="contenedor_principal">
-        <div class="container_titulo">
+      
+     <div class="container_titulo">
         <h2 class="titulo_principal_contacto">¡Contactate con nosotros!</h2>
-      </div>
+     </div>
       <div class="titulo_contacto">
         <p>Ingresa tus datos de contacto y luego tu consulta y en breve nos contactaremos con vos.</p>
       </div>
-      <div class="container_form">
-        <form class="container_form">
-          
-            <label  for="nombre">Nombre</label>
-            <input class="imput-contacto" type="text" name="nombre" placeholder="Ingresa tu nombre"  />
-            <br/> 
-            <label for="mail">Mail</label>
-            <input class="imput-contacto" type="email" name="mail" placeholder="Ingresa tu email" />
-            <br/>
-            <label for="Asunto">Asunto</label>
-            <input  class="imput-contacto" type="text" name="asunto" placeholder="Ingresa un asunto" />
-            <br/>
-            <label  for="comentario">Mensaje</label>
-            <textarea class="imput-contacto"
-              name="textarea"
-              rows="6"
-              cols="40"
-              placeholder="Escribe aquí tu mensaje"
-            ></textarea>  
-      </form>
+      <div class="container">
+        <div class="row">
+          <form class="row g-3">
+            <div class="col-6">
+              <label for="imputnombre" class="form-label">Nombre</label>
+              <input type="name" class="form-control" id="imputnombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="col-6">
+              <label for="imputapellido" class="form-label">Apellido</label>
+              <input type="apellido" class="form-control" id="imputapellido" placeholder="Ingresa tu apellido">  
+            </div>
+            <div class="col-6">
+              <label for="imputmail" class="form-label">Mail</label>
+              <input type="apellido" class="form-control" id="imputmail" placeholder="Ingresa tu mail">  
+            </div>
+            <div class="col-6">
+              <label for="imputasunto" class="form-label">Asunto</label>
+              <input type="asunto" class="form-control" id="imputasunto" placeholder="Ingresa el asunto">  
+            </div>
+            <div class="col-12">
+              <label for="mensajeinput" class="form-label">Mensaje</label>
+              <textarea class="form-control"  id="mensajeinput" cols="20" rows="10" placeholder="deja tu mensaje aqui"></textarea>
+            </div>
+            <div class="col-12 container_boton">
+              <button type="submit" class="btn boton">
+                Enviar
+              </button> 
+            </div>
+          </form>
+        </div>
+      </div>  
+      <div class="titulo_mapa">
+        <p class=col-12> ¿Preferis acercarte a nuestras oficinas?</p>
       </div>
+      <div class="mapa col-12">
+        <iframe class="col-lg-6 col-md-6 col-sm-12 mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21656.777756991924!2d-58.55153116026595!3d-34.81670181489307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd0f4e2dea557%3A0xf19b6f81d441cc3b!2sAeropuerto%20Internacional%20Ezeiza!5e0!3m2!1ses!2sar!4v1686847592333!5m2!1ses!2sar"  height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div> 
+      </div>
+    </div> 
+      
       <div class="container_newsletter">        
         <form class="form_newsletter">
           <p> Suscribite a nuestro newsletter y recibi todas nuetras promociones</p>
@@ -89,7 +109,7 @@
           <button class="boton_news" type="button" name="button"> Suscribirse </button> 
         </form>
      </div>
-      </div>
+    </div>
     </main>
 
     <footer>
