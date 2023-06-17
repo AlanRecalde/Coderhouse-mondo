@@ -56,6 +56,29 @@
 
 }
 
+.carrusel {
+
+    img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+
+
+
+    }
+
+    p {
+        font-family: $main-font;
+        color: #fff;
+        border-radius: 6px; 
+        font-size: 25px;
+        font-weight: bold;
+        background-color: $main-color;
+
+    }
+
+
+}    
 .titulo_principal {
     background: url(../assets/bg-newsletter.jpg)  no-repeat center;
     background-size: cover;
