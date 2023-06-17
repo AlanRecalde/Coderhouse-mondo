@@ -1,6 +1,14 @@
+.contenedor_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 252, 253)
+}
+
+
 .container_titulo {
    
-    color: #fff;
+    color: #191919;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +16,11 @@
     
 
 }
+
+.container {
+    margin: 10px;
+}
+
 
 .titulo_principal_contacto {
     display: flex;
@@ -23,6 +36,15 @@
         text-align: center;
     }
 
+}
+
+form label {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;   
+    text-align: center;    
+    padding: 5px;
+    margin: 5px;
 }
 
 .boton {
