@@ -42,9 +42,13 @@ main {
 }
 
 .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;
   background-color: rgba(250, 250, 250, 0.9058823529);
+  width: 250px;
 }
 .card:hover {
   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
@@ -58,14 +62,13 @@ main {
 .card .btn-primary:hover {
   background-color: rgb(244, 51, 115);
 }
-
-img {
+.card img {
   cursor: pointer;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
-
-.card-title {
+.card .card-title {
   font-size: 17px;
   text-transform: uppercase;
   font-family: sans-serif;
@@ -73,18 +76,19 @@ img {
   font-size: 17px;
   font-weight: bolder;
 }
-
-.card-ciudad-origen, .card-precio {
+.card .card-ciudad-origen, .card .card-precio {
   font-size: 13px;
   font-weight: bolder;
 }
-
-.card-text {
+.card .card-text {
   font-size: 12px;
 }
 
 .contenedor_principal {
   background-color: #EEF1FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carrusel img {
@@ -103,26 +107,40 @@ img {
 }
 
 .titulo_principal {
-  background: url(../assets/bg-newsletter.jpg) no-repeat center;
+  background-color: rgba(255, 231, 255, 0.9764705882);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 10;
-  color: #fff;
-  height: 40vh;
+  margin: 10;
+  color: black;
+  height: 21vh;
 }
 .titulo_principal h1 {
   font-family: Verdana;
-  font-weight: bolder;
-  text-transform: uppercase;
-  font-size: 35px;
+  font-size: 25px;
+  font-weight: bold;
 }
 .titulo_principal p {
   font-size: 20px;
   font-style: oblique;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.sub_titulo_pagina_principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub_titulo_pagina_principal p {
+  background-color: rgb(226, 208, 244);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 25px;
+  font-weight: bold;
 }
 
 .container_newsletter {
@@ -179,6 +197,12 @@ input {
   text-transform: uppercase;
   font-size: 10px;
   color: rgb(63, 60, 60);
+}
+
+.contenedor_tarjetas {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
 
 .container_titulo {
