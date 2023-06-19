@@ -1,20 +1,20 @@
 .contenedor_principal_hospedaje {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+   
     justify-content: center;
     align-items: center;
     gap: 10px;
     
 }
 
-
-
 .imagen_hotel {
     width: 90%;
     height: 300px;
     padding: 10px;
-
+    border-radius: 20px;
+    object-fit: cover;
+     
 
 }
 
@@ -38,7 +38,6 @@
     .bonton_hospedaje {
         display: flex;
         width: 100%;
-    
         justify-content: center;
         background-color: $main-color;
         color: #ffff;
@@ -51,34 +50,23 @@
 }
 
     
-
-.imagen_hotel {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 5px;
-    
-}
-
-
-
 .contenedor_recomendaciones {
    
     display: flex;
     justify-content: center;
-    
+    margin: 10px 0px 10px;
     
 }
 
 .recomendaciones {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
+    width: 250px;
     margin: 10px;
     padding: 20px;
     background-color: #ffff;
-    border: 1px solid rgb(222, 216, 216);
+    border: 1px solid rgb(149, 148, 148);
     border-radius: 8px;
+    box-shadow: 0.5px 0.5px 4px rgb(222, 165, 213);
    
     h3  {
         font-size: 15px;
