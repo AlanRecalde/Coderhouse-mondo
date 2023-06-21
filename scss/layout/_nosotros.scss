@@ -1,8 +1,9 @@
 .titulo_about_us {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    padding: 20px;
     text-transform: uppercase;
+    
 }
 
 
@@ -30,5 +31,6 @@
     margin: 20px;
     object-fit: cover;
     border-radius: 8px;
+    background-color: $fondo;
 
 }

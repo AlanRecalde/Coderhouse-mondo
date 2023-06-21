@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    background-color: $fondo;
     
 }
 
@@ -50,7 +51,6 @@
 
     
 .contenedor_recomendaciones {
-   
     display: flex;
     justify-content: center;
     margin: 10px 0px 10px;
@@ -77,3 +77,4 @@
         color: rgb(69, 69, 69);
     }
 }
+

@@ -56,7 +56,7 @@
 
 
 .contenedor_principal {
-    background-color: #EEF1FF;
+    background-color: $fondo;
     display: flex;
     justify-content: center;
    
@@ -91,7 +91,7 @@
 
 }    
 .titulo_principal {
-    background-color: #ffe7fff9;
+    background-color: $fondo;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -107,16 +107,17 @@
 
     h1 {
         font-family: $main-font; 
-        font-size: 25px;
+        font-size: 40px;
         font-weight: bold;
+        background-color: $fondo;
 
        
     }
 
     p {
-        font-size: 20px;
+        font-size: 30px;
         font-style: oblique;
-        font-family: sans-serif;
+        font-family: $main-font;
         font-weight: lighter;
         
         
@@ -129,10 +130,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $fondo;
     
 
     p {
-        background-color: rgb(226, 208, 244);
+        background-color: #ffffff;
         border-radius: 5px;
         padding: 10px;
         margin: 25px;
