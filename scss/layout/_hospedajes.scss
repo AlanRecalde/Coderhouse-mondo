@@ -1,3 +1,9 @@
+.titulo_principal {
+    font-size: 35px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
 .contenedor_principal_hospedaje {
     display: flex;
     flex-direction: column;
@@ -6,47 +12,44 @@
     gap: 10px;
     background-color: $fondo;
     
-}
-
-.imagen_hotel {
-    width: 90%;
-    height: 300px;
-    padding: 10px;
-    border-radius: 20px;
-    object-fit: cover;
-     
-
-}
-
-
-.info_hotel{ 
-    text-align: justify;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    
-
-    h3 { 
-        text-align: center;
-    }
-    .descripcion_hotel {
-        width: 100%;
+    .imagen_hotel {
+        width: 90%;
+        height: 300px;
         padding: 10px;
-
-    }
-
-    .bonton_hospedaje {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        background-color: $main-color;
-        color: #ffff;
-        border-color: blanchedalmond;
-        &:hover {
-            background-color: rgb(244, 51, 115);
-        }
-    }
+        border-radius: 20px;
+        object-fit: cover;   
     
+    }
+
+    .info_hotel{ 
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        
+        h3 { 
+            text-align: center;
+        }
+        .descripcion_hotel {
+            width: 100%;
+            padding: 10px;
+    
+        }
+    
+        .bonton_hospedaje {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background-color: $main-color;
+            color: #ffff;
+            border-color: blanchedalmond;
+            &:hover {
+                background-color: rgb(244, 51, 115);
+            }
+        }
+        
+    }
+
 }
 
     
@@ -55,26 +58,27 @@
     justify-content: center;
     margin: 10px 0px 10px;
     
-}
-
-.recomendaciones {
-    flex-direction: column;
-    width: 250px;
-    margin: 10px;
-    padding: 20px;
-    background-color: #ffff;
-    border: 1px solid rgb(149, 148, 148);
-    border-radius: 8px;
-    box-shadow: 0.5px 0.5px 4px rgb(222, 165, 213);
-   
-    h3  {
-        font-size: 15px;
-
-    }
     
-    p {
-        font-size: 10px;
-        color: rgb(69, 69, 69);
+    .recomendaciones {
+        flex-direction: column;
+        width: 250px;
+        margin: 10px;
+        padding: 20px;
+        background-color: #ffff;
+        border: 1px solid rgb(149, 148, 148);
+        border-radius: 8px;
+        box-shadow: 0.5px 0.5px 4px rgb(222, 165, 213);
+       
+        h3  {
+            font-size: 15px;
+    
+        }
+        
+        p {
+            font-size: 10px;
+            color: rgb(69, 69, 69);
+        }
     }
+
 }
 

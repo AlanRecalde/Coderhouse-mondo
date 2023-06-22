@@ -6,100 +6,101 @@
     background-color: $fondo;
     overflow: hidden;
     
+
+    .container_titulo {
     
-}
-
-
-.container_titulo {
-   
-    color: #191919;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
-
-}
-
-.container {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-
-.titulo_principal_contacto {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-
-}
-
-.titulo_contacto {
-    display: flex;
-    justify-content: center;
-
-
-    p {
-        text-align: center;
-       
-    }
-
-}
-
-form label {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;   
-    text-align: center;    
-    padding: 5px;
-    margin: 5px;
-}
-
-.boton {
-    background-color: $main-color;
-    border-color: blanchedalmond;
-    color: #fff;
-    &:hover {
-        background-color: rgb(244, 51, 115);
-    }
-
-}
-
-.container_boton {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.mapa {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
-    iframe {
-        height: 400px;
-        width: 100%;
-        border-radius: 10px;
+        color: #191919;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
         
-    }
-    
-}
 
-.titulo_mapa {
-    text-align: center;
-    font-family: $main-font;
-    font-size: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+    }
+
+    .container {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .titulo_principal_contacto {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
         
+
+    }
+
+    .titulo_contacto {
+        display: flex;
+        justify-content: center;
+
+
         p {
+            text-align: center;
         
-            text-transform: uppercase;
-            font-size: 25px;
+        }
+
     }
-}
+
+    form label {
+        font-weight: bold;
+        display: flex;
+        justify-content: center;   
+        text-align: center;    
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .boton {
+        background-color: $main-color;
+        border-color: blanchedalmond;
+        color: #fff;
+        &:hover {
+            background-color: rgb(244, 51, 115);
+        }
+
+    }
+
+    .container_boton {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .mapa {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        iframe {
+            height: 400px;
+            width: 100%;
+            border-radius: 10px;
+            
+        }
+        
+    }
+
+    .titulo_mapa {
+        text-align: center;
+        font-family: $main-font;
+        font-size: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+            
+            p {
+            
+                text-transform: uppercase;
+                font-size: 25px;
+        }
+    }
+
+        
+    }
+

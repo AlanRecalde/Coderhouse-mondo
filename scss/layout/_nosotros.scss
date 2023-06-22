@@ -13,24 +13,27 @@
     max-width: 1200px;
     align-items: center;
 
-}
 
-.texto_about_us {
-    display: flex;
-    text-align: justify;
-    margin: 20px;
-    font-size: 15px;
-    min-width: 100px;
-}
-
-
-.img_historia {
+    .texto_about_us {
+        display: flex;
+        text-align: justify;
+        margin: 20px;
+        font-size: 15px;
+        min-width: 100px;
+    }
     
-    width: 250px;
-    height: 250px;
-    margin: 20px;
-    object-fit: cover;
-    border-radius: 8px;
-    background-color: $fondo;
+    
+    .img_historia {
+        
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+        object-fit: cover;
+        border-radius: 8px;
+        background-color: $fondo;
+    
+    }
+
 
 }
+
