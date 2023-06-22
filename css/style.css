@@ -99,11 +99,12 @@ main {
   height: 70vh;
   -o-object-fit: cover;
      object-fit: cover;
+  display: flex;
 }
 .carrusel p {
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 25px;
   font-weight: bold;
   background-color: blueviolet;
@@ -126,12 +127,16 @@ main {
   font-size: 40px;
   font-weight: bold;
   background-color: #EEF1FF;
+  padding-top: 20px;
 }
 .titulo_principal p {
   font-size: 30px;
   font-style: oblique;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
+  display: flex;
+  width: 90%;
+  justify-content: center;
 }
 
 .sub_titulo_pagina_principal {
@@ -331,6 +336,7 @@ input {
   justify-content: center;
   flex-direction: column;
   background-color: #EEF1FF;
+  overflow: hidden;
 }
 
 .container_titulo {
@@ -338,7 +344,8 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .container {
@@ -353,6 +360,10 @@ input {
   margin-top: 20px;
 }
 
+.titulo_contacto {
+  display: flex;
+  justify-content: center;
+}
 .titulo_contacto p {
   text-align: center;
 }
@@ -386,6 +397,11 @@ form label {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.mapa iframe {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .titulo_mapa {

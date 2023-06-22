@@ -1,8 +1,12 @@
+
 .contenedor_main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: $fondo;
+    overflow: hidden;
+    
+    
 }
 
 
@@ -12,7 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     
 
 }
@@ -33,9 +38,13 @@
 }
 
 .titulo_contacto {
-    
+    display: flex;
+    justify-content: center;
+
+
     p {
         text-align: center;
+       
     }
 
 }
@@ -71,15 +80,22 @@ form label {
     flex-direction: column;
     align-items: center;
     
+    iframe {
+        height: 400px;
+        width: 100%;
+        border-radius: 10px;
+        
+    }
+    
 }
 
 .titulo_mapa {
     text-align: center;
-        font-family: $main-font;
-        font-size: 20px;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
+    font-family: $main-font;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
         
         p {
         
