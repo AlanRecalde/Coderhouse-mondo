@@ -55,19 +55,10 @@
 
 
 
-.contenedor_principal {
-    background-color: $fondo;
-    display: flex;
-    justify-content: center;
-   
-    
-    img {
-        height: 200px;
-    }
 
-}
 
 .carrusel {
+    
 
     img {
         width: 100%;
@@ -90,7 +81,30 @@
     }
 
 
-}    
+
+}
+
+.contenedor_principal {
+    background-color: $fondo;
+    display: flex;
+    justify-content: center;
+   
+    
+    img {
+        height: 200px;
+    }
+    .contenedor_tarjetas { 
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    
+    }
+
+}
+
+
+
+   
 .titulo_principal {
     background-color: $fondo;
     background-size: cover;
@@ -104,16 +118,14 @@
     height: 21vh;
     
 
-    
-
     h1 {
         font-family: $main-font; 
-        font-size: 40px;
+        font-size: 35px;
         font-weight: bold;
         background-color: $fondo;
-        padding-top: 20px;
+        padding-top: 40px;
+        
 
-       
     }
 
     p {
@@ -125,8 +137,6 @@
         width: 90%;
         justify-content: center;
         
-        
-
 
     }
 }
@@ -162,8 +172,8 @@
         font-size: 13px;
         font-weight: bold;
      }
-}
 
+}
 
 
 .form_newsletter {
@@ -190,12 +200,7 @@
     }
 
 }
-input {
-    border-radius: 5px;
-    padding: 2px;
-    text-align: center;
-    
-}
+
 
 .container_newsletter_centro {
     display: flex;
@@ -212,13 +217,14 @@ input {
         font-size: 10px;
         color: rgb(63, 60, 60);
     }
+    input {
+        border-radius: 5px;
+        padding: 2px;
+        text-align: center;
+        
+    }
 
 }
 
-.contenedor_tarjetas { 
-    display: flex;
-    justify-content: center;
-    padding: 5px;
 
-}
 
